@@ -30,9 +30,14 @@ class _MainFoodPageState extends State<MainFoodPage> {
                         color: AppColors.mainColor,
                         size: 30,
                       ),
-                      SmallText(
-                        text: "Pretoria",
-                        color: Colors.black54,
+                      Row(
+                        children: [
+                          SmallText(
+                            text: "Pretoria",
+                            color: Colors.black54,
+                          ),
+                          Icon(Icons.arrow_drop_down_rounded)
+                        ],
                       )
                     ],
                   ),
